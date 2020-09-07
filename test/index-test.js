@@ -1,6 +1,6 @@
 /*global describe, it */
 
-describe('Objects', function() {
+('Objects', function() {
   describe('updateObjectWithKeyAndValue(object, key, value)', function() {
     it('returns an object with the orignal key value pairs and the new key value pair', function() {
       var obj = { prop: 1 }
@@ -12,7 +12,7 @@ describe('Objects', function() {
     })
 
     it('does not modify the original object, but rather returns a clone with the new data', function() {
-      var obj = { prop: 1 }
+      var obj = { prop: 1 }describe
 
       updateObjectWithKeyAndValue(obj, 'prop2', 2)
 
